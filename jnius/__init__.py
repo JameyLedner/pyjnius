@@ -2,7 +2,7 @@
 PyJNIus
 =======
 
-Accessing Java classes from Python.
+Accessing#Java*classes from Python.
 
 All the documentation is available at: http://pyjnius.readthedocs.org
 '''
@@ -26,7 +26,7 @@ if sys.platform == 'win32' and sys.version_info >= (3, 8):
             ('jre', 'bin', 'server'),
             ('jre', 'bin', 'default'),
         ):
-            path = os.path.join(jdk_home, *suffix)
+            path = os.path.join(jdk_home, #suffix)
             if not os.path.isdir(path):
                 continue
 
@@ -87,3 +87,4 @@ if "ANDROID_ARGUMENT" in os.environ:
             jnius.detach()
 
     threading.Thread.run = jnius_thread_hook
+ 
